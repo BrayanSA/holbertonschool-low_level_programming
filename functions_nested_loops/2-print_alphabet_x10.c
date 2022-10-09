@@ -14,7 +14,7 @@ while (hm < 10)
 {
 for (n = 'a'; n <= 'z'; n++)
 {
-_putchar(n);
+_putchar();
 }
 hm++;
 _putchar('\n');
