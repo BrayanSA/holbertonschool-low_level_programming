@@ -1,12 +1,17 @@
 #include "main.h"
-
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet - print the alphabet
  *
- * Return: Always 0.
+ * Return: Always success
  */
-int main(void)
+void print_alphabet(void)
 {
-  print_alphabet();
-  return (0);
+
+  int n;
+
+  for (n = 'a'; n <= 'z'; n++)
+    {
+      _putchar(n);
+    }
+  _putchar('\n');
 }
