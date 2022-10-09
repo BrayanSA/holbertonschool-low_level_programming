@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
 * print_alphabet - a function that prints the alphabet, in lowercase
@@ -7,11 +6,11 @@
 */
 void print_alphabet(void)
 {
-int d;
+int n;
 
-for (d = 'a'; d <= 'z'; d++)
+for (n = 'a'; n <= 'z'; n++)
 {
-_putchar(d);
+_putchar(n);
 }
 _putchar('\n');
 }
