@@ -22,5 +22,5 @@ while (half < index)
 _putchar(str[half]);
 half++;
 }
-_putcha('\n');
+_putchar('\n');
 }
