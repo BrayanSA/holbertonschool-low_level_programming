@@ -6,30 +6,30 @@
 */
 char *cap_string(char *str)
 {
-int n = 0;
+int x = 0;
 
-while (str[n])
+while (str[x])
 {
-while (!(str[n] >= 'a' && str[n] <= 'z'))
-n++;
+while (!(str[x] >= 'a' && str[x] <= 'z'))
+x++;
 
-if (str[n - 1] == ' ' ||
-str[n - 1] == '\t' ||
-str[n - 1] == '\n' ||
-str[n - 1] == ',' ||
-str[n - 1] == ';' ||
-str[n - 1] == '.' ||
-str[n - 1] == '!' ||
-str[n - 1] == '?' ||
-str[n - 1] == '"' ||
-str[n - 1] == '(' ||
-str[n - 1] == ')' ||
-str[n - 1] == '{' ||
-str[n - 1] == '}' ||
-n == 0
-str[n] -= 32;
+if (str[x - 1] == ' ' ||
+str[x - 1] == '\t' ||
+str[x - 1] == '\n' ||
+str[x - 1] == ',' ||
+str[x - 1] == ';' ||
+str[x - 1] == '.' ||
+str[x - 1] == '!' ||
+str[x - 1] == '?' ||
+str[x - 1] == '"' ||
+str[x - 1] == '(' ||
+str[x - 1] == ')' ||
+str[x - 1] == '{' ||
+str[x - 1] == '}' ||
+x == 0)
+str[x] -= 32;
 
-n++;
+x++;
 }
 
 return (str);
