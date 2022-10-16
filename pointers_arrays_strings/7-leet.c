@@ -13,7 +13,7 @@ char numbers[] = "43071";
 
 for (x = 0; str[x] != '\0'; x++)
 {
-for (i = 0; i < 10: i++)
+for (i = 0; i < 10; i++)
 {
 if (str[x] == letters[i])
 str[x] = numbers[i / 2];
