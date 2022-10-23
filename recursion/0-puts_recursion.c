@@ -10,6 +10,6 @@ if (!*s)
 _putchar('\n');
 return;
 }
-_puthcar(*s);
+_putchar(*s);
 _puts_recursion(s + 1);
 }
