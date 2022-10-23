@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.c"
 /**
 * test_prime - Test for prime number
 * @n: Number being evaluated

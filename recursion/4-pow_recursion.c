@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 /**
 * _pow_recursion - Returns value x raised to power y
 * @x: Number being raised

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 /**
 * test_root - Tests for maximum squares
 * @n: Number being evaluated

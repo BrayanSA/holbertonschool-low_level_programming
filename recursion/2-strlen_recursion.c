@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 /**
 * _strlen_recursion - Returns length of string
 * @s: Pointer to string
