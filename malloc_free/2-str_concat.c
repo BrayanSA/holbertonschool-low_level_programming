@@ -19,6 +19,10 @@ if (!s2)
 s2 = "";
 while (*(s1 + i))
 ++i;
+len = i;
+i = 0;
+while (*(s2 + i))
+++i;
 len += i;
 str = malloc(sizeof(char) * (len + 1));
 if (!str)
