@@ -56,7 +56,7 @@ print_type types[] = {
 va_list ap;
 char *separator = "";
 int i = 0;
-int j = o;
+int j = 0;
 
 va_start(ap, format);
 while (format && format[i])
