@@ -54,7 +54,7 @@ if (tmp->next)
 {
 tmp = tmp->next;
 tmp->prev = current->prev;
-{
+}
 }
 else
 {
